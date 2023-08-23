@@ -9,6 +9,6 @@ namespace SampleOfLiskovSubstitutionPrinciple
     public abstract class Quadrilaterals
     {
         //polymorphism
-        public abstract int GetArea();
+        public abstract int CalculateArea();
     }
 }

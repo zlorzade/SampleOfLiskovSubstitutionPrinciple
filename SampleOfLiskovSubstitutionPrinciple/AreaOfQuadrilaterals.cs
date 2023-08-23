@@ -11,7 +11,7 @@ namespace SampleOfLiskovSubstitutionPrinciple
         //polymorphism
         public static void GetArea(Quadrilaterals quadrilaterals)
         {
-            var area = quadrilaterals.GetArea();
+            var area = quadrilaterals.CalculateArea();
             Console.WriteLine(area);
         }
     }

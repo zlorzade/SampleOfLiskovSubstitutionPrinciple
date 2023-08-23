@@ -17,7 +17,7 @@ namespace SampleOfLiskovSubstitutionPrinciple
             _length = length;
         }
 
-        public override int GetArea()
+        public override int CalculateArea()
         {
            return _width * _length;
         }

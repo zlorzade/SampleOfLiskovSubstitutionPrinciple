@@ -16,7 +16,7 @@ namespace SampleOfLiskovSubstitutionPrinciple
         }
 
 
-        public override int GetArea()
+        public override int CalculateArea()
         {
             return _size * _size;
         }
